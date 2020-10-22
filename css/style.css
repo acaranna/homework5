@@ -80,8 +80,7 @@ footer{
     /*Don't forget to vertically and horizontally alight the card*/
     display: flex;
     flex-wrap: wrap;
-    height: auto;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -223,7 +222,7 @@ header{
   /*You will want four selectors*/
 
   body {
-    background-image: none;
+    background: none;
   }
 
   .pricing {
@@ -232,11 +231,11 @@ header{
   }
 
   .gallery {
-    visibility: hidden;
+    display: none;
   }
 
   #gallery {
-    visibility: hidden;
+    display: none;
   }
 }
 
